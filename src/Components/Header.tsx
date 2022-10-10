@@ -17,7 +17,7 @@ const Header:React.FC<props>=(props)=>
           className="text-white text-2xl font-medium cursor-pointer"
           to="/listings"
         >
-          RentOnZilliqa
+          LearningRent
         </Link>
         <Button
           text={'Create Account'}
