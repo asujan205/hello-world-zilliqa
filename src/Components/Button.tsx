@@ -10,7 +10,7 @@ type props ={
 
 
 }
-const Button=(props)=>{
+const Button : React.FC<props>=(props)=>{
   const 
   {text,
     white = false,
