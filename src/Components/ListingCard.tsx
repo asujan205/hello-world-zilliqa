@@ -51,3 +51,4 @@ type props={
         </>
     )
  }
+ export default ListingCard

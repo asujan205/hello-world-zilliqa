@@ -9,7 +9,7 @@ type props ={
     buttonText: string;
     onClick(): void;
 }
- const Model :React.FC<props>=(props)=>{
+ const Modal :React.FC<props>=(props)=>{
     const { title, children, setVisible, visible, buttonText, onClick } = props;
    useEffect(()=>{
     document.onkeydown=(e:KeyboardEvent)=>{
@@ -89,3 +89,4 @@ type props ={
 
     </>)
  }
+ export default Modal
